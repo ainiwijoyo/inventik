@@ -58,8 +58,6 @@
         <div id="inventaris" class="collapse <?=isset($inventaris)?'show':'';?>" aria-labelledby="headingTwo"
         data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item <?=isset($lahan)?'active':'';?>" href="?lahan">Data Lahan</a>
-            <a class="collapse-item <?=isset($bangunan)?'active':'';?>" href="?bangunan">Data Bangunan</a>
             <a class="collapse-item <?=isset($barang)?'active':'';?>" href="?barang">Data Barang</a>
         </div>
     </div>
@@ -81,6 +79,7 @@
                 <a class="collapse-item <?=isset($barang_masuk)?'active':'';?>" href="?barang_masuk">Barang Masuk</a>
                 <a class="collapse-item <?=isset($barang_keluar)?'active':'';?>" href="?barang_keluar">Barang Keluar</a>
                 <a class="collapse-item <?=isset($pinjam)?'active':'';?>" href="?pinjam">Peminjaman</a>
+                <a class="collapse-item <?=isset($pinjam)?'active':'';?>" href="?refill">Refill</a>
             </div>
         </div>
     </li>

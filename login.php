@@ -38,7 +38,7 @@ if (isset($_POST['cek_login'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SARPRAS MI Nurjalin Pesahangan</title>
+    <title>S</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= $base_url; ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -58,8 +58,8 @@ if (isset($_POST['cek_login'])) {
             box-shadow: 0px 0px 20px #888888;
             ">
 
-                <i class="fa fa-book fa-4x"></i>
-                <h4>Selamat Datang di Sistem Inventaris Barang</h4>
+                <img src="<?= $base_url; ?>assets/img/login-1.png" alt="Logo" style="width: 64px; height: 64px;">
+                <h4>Sistem Inventaris Barang</h4>
                 <br>
                 <?php if (isset($_SESSION['success'])) : ?>
                     <div class="flash-data-berhasil" data-berhasil="<?= $_SESSION['success']; ?>"></div>

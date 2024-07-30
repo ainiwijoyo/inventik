@@ -45,6 +45,10 @@
         $transaksi = $pinjam = true;
         $views = 'views/transaksi/pinjam.php';
     }
+    else if(isset($_GET['refill'])){
+        $transaksi = $pinjam = true;
+        $views = 'views/transaksi/refill.php';
+    }
     else if(isset($_GET['lap_barang_masuk'])){
         $laporan = $lap_barang_masuk = true;
         $views = 'views/laporan/lap_barang_masuk.php';
